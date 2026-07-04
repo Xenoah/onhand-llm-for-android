@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 手のひらの上のチャット吹き出し(ローカルLLM)を表すシンプルなアイコン -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 吹き出し -->
+    <path
+        android:fillColor="#7DE0C3"
+        android:pathData="M34,30 h40 a8,8 0 0 1 8,8 v18 a8,8 0 0 1 -8,8 h-22 l-9,9 v-9 h-9 a8,8 0 0 1 -8,-8 v-18 a8,8 0 0 1 8,-8 z" />
+    <!-- 吹き出し内のドット (推論中を示す3点) -->
+    <path
+        android:fillColor="#1A1C2C"
+        android:pathData="M42,44 m-3.4,0 a3.4,3.4 0 1 0 6.8,0 a3.4,3.4 0 1 0 -6.8,0" />
+    <path
+        android:fillColor="#1A1C2C"
+        android:pathData="M54,44 m-3.4,0 a3.4,3.4 0 1 0 6.8,0 a3.4,3.4 0 1 0 -6.8,0" />
+    <path
+        android:fillColor="#1A1C2C"
+        android:pathData="M66,44 m-3.4,0 a3.4,3.4 0 1 0 6.8,0 a3.4,3.4 0 1 0 -6.8,0" />
+    <!-- 手のひら (簡略化した弧) -->
+    <path
+        android:fillColor="#F2F4F8"
+        android:pathData="M30,74 q24,14 48,0 q-4,12 -24,12 q-20,0 -24,-12 z" />
+</vector>

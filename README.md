@@ -108,7 +108,7 @@ app/src/main/java/com/onhand/llm/
 - [x] ホーム画面ウィジェット (状態表示 / チャット起動 / サーバー切替)
 - [x] 設定の永続化と起動時のモデル自動読み込み
 - [x] エラー / 状態の GUI 表示 (バナー, チップ, ログ)
-- [x] GitHub Actions CI (APK ビルド)
+- [x] GitHub Actions CI (APK ビルド — 成功。Actions の Artifacts から `onhand-llm-debug-apk` を取得可能)
 - [ ] 実機での動作確認
 - [ ] GGUF (llama.cpp) バックエンドの追加
 - [ ] チャット履歴の複数会話対応
